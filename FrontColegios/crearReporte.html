@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Reporte</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form id="crearReporte">
+        <div class="inputControl">
+            <input type="text" name="direccion" id="direccion" placeholder="direccion" required>
+            <label for="direccion">Direccion</label>
+        </div>
+        <div class="inputControl">
+            <input type="text" name="latitud" id="latitud" placeholder="latitud" required>
+            <label for="latitud">Latitud</label>
+        </div>
+        <div class="inputControl">
+            <input type="text" name="longitud" id="longitud" placeholder="longitud" required>
+            <label for="longitud">Longitud</label>
+        </div>
+        <div class="inputControl">
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" required>Descripción</textarea>
+        </div>
+        <button>Crear Reporte</button>
+    </form>
+    <script src="./js/registrar.js"></script>
+</body>
+</html>
